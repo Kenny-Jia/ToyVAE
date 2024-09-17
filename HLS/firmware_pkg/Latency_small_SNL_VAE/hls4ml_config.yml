@@ -1,0 +1,75 @@
+Backend: Vivado
+ClockPeriod: 25
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    dense1:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    dense1_linear:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    dense2:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    dense2_linear:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    inputs:
+      Precision:
+        result: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    relu1:
+      Precision:
+        result: ap_fixed<32,16,AP_RND_CONV,AP_SAT>
+      Strategy: Latency
+      Trace: true
+    relu2:
+      Precision:
+        result: ap_fixed<32,16,AP_RND_CONV,AP_SAT>
+      Strategy: Latency
+      Trace: true
+    z_mean:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+    z_mean_linear:
+      Precision:
+        bias: ap_fixed<32,16>
+        result: ap_fixed<32,16>
+        weight: ap_fixed<32,16>
+      Strategy: Latency
+      Trace: true
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<32,16>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+KerasModel: !keras_model 'Latency_small_SNL_VAE/keras_model.h5'
+OutputDir: Latency_small_SNL_VAE
+Part: xcvu9p-flga2104-2-e
+ProjectName: myproject
+Stamp: Bfa27A04
+Version: 1.0.0
