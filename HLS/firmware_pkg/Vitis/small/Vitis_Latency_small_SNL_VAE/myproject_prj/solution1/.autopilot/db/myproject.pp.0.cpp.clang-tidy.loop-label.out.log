@@ -1,0 +1,385 @@
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28360:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28360:7: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29334:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29334:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29348:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29348:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29362:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29362:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30961:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30961:7: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32946:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32946:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32959:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32959:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55841:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55841:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55851:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55851:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55862:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55862:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55869:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55869:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55871:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55871:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55883:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55883:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55885:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55885:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55900:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55900:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55921:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55921:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55936:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55936:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55943:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55943:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56066:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56066:2: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56078:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56078:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56092:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56092:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56119:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56119:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56149:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56149:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56186:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56186:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56197:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56197:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56230:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56230:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56244:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56244:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56278:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56278:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56287:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56287:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56301:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56301:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56308:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56308:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56321:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56321:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56358:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56358:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56363:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56363:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56364:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56364:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56381:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56381:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56394:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56394:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56402:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56402:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56437:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56437:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56467:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56467:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56486:2: warning: Added loop label VITIS_LOOP_451_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_451_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56486:2: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56502:5: warning: Added loop label VITIS_LOOP_467_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_467_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56502:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56520:5: warning: Added loop label VITIS_LOOP_485_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_485_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56520:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56537:5: warning: Added loop label VITIS_LOOP_502_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_502_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56537:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56554:5: warning: Added loop label VITIS_LOOP_519_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_519_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56554:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56584:5: warning: Added loop label VITIS_LOOP_549_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_549_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56584:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56603:5: warning: Added loop label VITIS_LOOP_568_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_568_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56603:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56633:5: warning: Added loop label VITIS_LOOP_598_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_598_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56633:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56652:5: warning: Added loop label VITIS_LOOP_617_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_617_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56652:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56682:5: warning: Added loop label VITIS_LOOP_647_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_647_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56682:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56709:5: warning: Added loop label VITIS_LOOP_674_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_674_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56709:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56738:5: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_703_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56738:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56759:5: warning: Added loop label VITIS_LOOP_724_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_724_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56759:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56777:5: warning: Added loop label VITIS_LOOP_742_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_742_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56777:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56797:5: warning: Added loop label VITIS_LOOP_762_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_762_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56797:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56893:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56893:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56900:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56900:13: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56909:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56909:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56918:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56918:13: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56922:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56922:17: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56933:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56933:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56937:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56937:13: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56961:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56961:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56965:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56965:13: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56984:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56984:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57007:2: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / data_T::size; i++) {
+ ^~~
+ VITIS_LOOP_187_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57007:2: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57010:9: warning: Added loop label VITIS_LOOP_190_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_190_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57010:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57015:5: warning: Added loop label VITIS_LOOP_195_3:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_195_3: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57015:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57019:9: warning: Added loop label VITIS_LOOP_199_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_199_4: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57019:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57233:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57233:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57242:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57242:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57348:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57348:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57353:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57353:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57361:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57361:9: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58301:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58301:5: note: FIX-IT applied suggested code changes
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58361:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+/u1/hjia625/conifer/Vitis_Latency_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58361:9: note: FIX-IT applied suggested code changes

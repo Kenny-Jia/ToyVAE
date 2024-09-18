@@ -1,0 +1,697 @@
+---
+MainSourceFile:  /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        /afs/slac.stanford.edu/g/reseng/vol39/xilinx/2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          817262
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /afs/slac.stanford.edu/g/reseng/vol39/xilinx/2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1046154
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /afs/slac.stanford.edu/g/reseng/vol39/xilinx/2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1046622
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /afs/slac.stanford.edu/g/reseng/vol39/xilinx/2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1047091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /afs/slac.stanford.edu/g/reseng/vol39/xilinx/2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1331170
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1707334
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1707709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2382499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2382886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383221
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383444
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383903
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384328
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384781
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384826
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2385235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2385448
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388895
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390733
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394491
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395285
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395879
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396925
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397560
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398188
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399153
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_451_1:  '
+    FileOffset:      451
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2400303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_451_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_467_1:  '
+    FileOffset:      467
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2400761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_467_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_485_1:  '
+    FileOffset:      485
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_485_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_1:  '
+    FileOffset:      502
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_519_1:  '
+    FileOffset:      519
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_519_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2402663
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_568_1:  '
+    FileOffset:      568
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_568_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_1:  '
+    FileOffset:      598
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403903
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_617_1:  '
+    FileOffset:      617
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404457
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_617_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_647_1:  '
+    FileOffset:      647
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405089
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_647_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_674_1:  '
+    FileOffset:      674
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_674_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407144
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_762_1:  '
+    FileOffset:      762
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_762_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410005
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410145
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410410
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410697
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411133
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412099
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412185
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2413793
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_2:  '
+    FileOffset:      190
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2413931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_3:  '
+    FileOffset:      195
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_4:  '
+    FileOffset:      199
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2420124
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2420408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2450055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /u1/hjia625/conifer/Vitis_Resource_small_SNL_VAE/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2451926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...

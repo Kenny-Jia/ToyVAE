@@ -1,0 +1,113 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4 1 7 8 2",
+    "file": "myproject.cpp",
+    "fileloc": 6,
+    "instructions": 113,
+    "name": "myproject",
+    "total_instructions": 17360
+  },
+  "1": {
+    "basicblocks": 97,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 226,
+    "loads": {
+      "L": 32
+    },
+    "name": "relu<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ReLU_config4>",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 226
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "3",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 233,
+    "instructions": 19,
+    "loads": {
+      "L": 16
+    },
+    "name": "dense_resource<ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config8>",
+    "total_instructions": 372
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 13,
+    "instructions": 353,
+    "name": "dense_resource_rf_leq_nin<ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config8>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 353
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "6",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 233,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "dense_resource<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config2>",
+    "total_instructions": 12883
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 13,
+    "instructions": 3617,
+    "name": "dense_resource_rf_leq_nin<ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config5>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 3617
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 13,
+    "instructions": 12879,
+    "name": "dense_resource_rf_leq_nin<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 12879
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 233,
+    "instructions": 35,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense_resource<ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, config5>",
+    "total_instructions": 3652
+  },
+  "8": {
+    "basicblocks": 49,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 114,
+    "loads": {
+      "L": 16
+    },
+    "name": "relu<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_RND_CONV, AP_SAT, 0>, ReLU_config7>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 114
+  }
+}

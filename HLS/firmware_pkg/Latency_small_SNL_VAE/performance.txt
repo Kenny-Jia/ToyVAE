@@ -1,8 +1,0 @@
-TPR at FPR = 1e-05 for each channel:
-Ato4l: 3.914667%
-h->tautau: 0.077971%
-h+_->TauNu: 0.061557%
-leptoquark: 0.066364%
-
-Theshold = 4572970.934214514680206775665283203125
-

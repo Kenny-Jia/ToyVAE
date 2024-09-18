@@ -1,0 +1,50 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Instructions per Function for each Compilation Phase
++--------------------------------------+-------------------------+--------------+--------------------+----------------------+---------------+
+| Function                             | Location                | Compile/Link | Unroll/Inline      | Performance/Pipeline | Optimizations |
++--------------------------------------+-------------------------+--------------+--------------------+----------------------+---------------+
+| + myproject                          | myproject.cpp:6         | 2,925        | 143,138 *          | 17,537               | 17,356        |
+|  + dense<ap_fixed<32, 16, AP_TR...   | nnet_dense.h:36         |   611        |                    |                      |               |
+|   + dense_latency<ap_fixed<32, 1...  | nnet_dense_latency.h:13 |   609        |                    |                      |               |
+|      product                         | nnet_mult.h:70          |   163        |                    |                      |               |
+|      cast<ap_fixed<32, 16, AP_TRN... | nnet_mult.h:110         |     3        |                    |                      |               |
+|    relu<ap_fixed<32, 16, AP_TRN...   | nnet_activation.h:39    |   493        |     737            |    193               |    194        |
+|  + dense<ap_fixed<32, 16, AP_RN...   | nnet_dense.h:36         |   611        |                    |                      |               |
+|   + dense_latency<ap_fixed<32, 1...  | nnet_dense_latency.h:13 |   609        |                    |                      |               |
+|      product                         | nnet_mult.h:70          |   163        |                    |                      |               |
+|      cast<ap_fixed<32, 16, AP_RND... | nnet_mult.h:110         |     3        |                    |                      |               |
+|    relu<ap_fixed<32, 16, AP_TRN...   | nnet_activation.h:39    |   493        |     369            |     97               |     98        |
+|  + dense<ap_fixed<32, 16, AP_RN...   | nnet_dense.h:36         |   611        |                    |                      |               |
+|   + dense_latency<ap_fixed<32, 1...  | nnet_dense_latency.h:13 |   609        |                    |                      |               |
+|      product                         | nnet_mult.h:70          |   163        |                    |                      |               |
+|      cast<ap_fixed<32, 16, AP_RND... | nnet_mult.h:110         |     3        |                    |                      |               |
+|  + dense_latency<ap_fixed<32, 1...   | nnet_dense_latency.h:13 |              | 108,379            | 12,880               | 12,881        |
+|     cast<ap_fixed<32, 16, AP_TRN...  | nnet_mult.h:110         |              |      96 (32 calls) |                      |               |
+|  + dense_latency<ap_fixed<32, 1...   | nnet_dense_latency.h:13 |              |  30,622            |  3,618               |  3,619        |
+|     cast<ap_fixed<32, 16, AP_RND...  | nnet_mult.h:110         |              |      48 (16 calls) |                      |               |
+|  + dense_latency<ap_fixed<32, 1...   | nnet_dense_latency.h:13 |              |   2,984            |    354               |    355        |
+|     cast<ap_fixed<32, 16, AP_RND...  | nnet_mult.h:110         |              |       9 (3 calls)  |                      |               |
++--------------------------------------+-------------------------+--------------+--------------------+----------------------+---------------+
+    * - Exceeded design size warning message threshold
+
+* Description of Compilation Phases
++----------------------+------------------------------------------------------------+
+| Compilation Phase    | Description                                                |
++----------------------+------------------------------------------------------------+
+| Compile/Link         | All functions are compiled and linked into a single design |
+| Unroll/Inline        | After user unroll and inline pragmas are applied           |
+| Performance/Pipeline | After performance and pipeline pragmas are applied         |
+| Optimizations        | After high level synthesis optimizations                   |
++----------------------+------------------------------------------------------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+
