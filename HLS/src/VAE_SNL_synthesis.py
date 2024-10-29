@@ -1,6 +1,5 @@
 import hls4ml
 import matplotlib.pyplot as plt
-import plotting
 from scipy.special import softmax, expit as sigmoid
 from sklearn import metrics as sk
 from keras.models import load_model
@@ -36,7 +35,7 @@ from qkeras import quantized_relu, quantized_bits, quantized_po2, quantized_relu
 
 os.environ['PATH'] = os.environ['XILINX_VIVADO'] + '/bin:' + os.environ['PATH']
 os.environ['PATH'] = os.environ['XILINX_AP_INCLUDE'] + '/bin:' + os.environ['PATH']
-with h5py.File('preprocessed_SNL_data.h5', 'r') as hf:
+with h5py.File('/home/lizhx/preprocessed_SNL_data.h5', 'r') as hf:
     X_test  = hf['X_test'][:]
     Ato4l_data  = hf['Ato4l_data'][:]
     hToTauTau_data  = hf['hToTauTau_data'][:]
@@ -60,16 +59,11 @@ def analyze_columns(arr):
         print()  # Empty line for readability
 #analyze_columns(Ato4l_data)
 
-model_path = 'VAE_40MHZ_model_Vsmall_onchip'
-custom_objects = {
-    'QDense': QDense,
-    'QActivation': QActivation,
-    'QBatchNormalization': QBatchNormalization
-}
+model_path = '/home/lizhx/ToyVAE/software_dev/trimmed_models/best_GAN_iter_0'
 # TODO delete
 
 # TODO make simplified model with only encoder
-model = tf.keras.models.load_model(model_path, custom_objects=custom_objects)
+model = tf.keras.models.load_model(model_path)
 print(model.summary())
 np.set_printoptions(threshold=np.inf, linewidth=np.inf)
 '''
@@ -359,7 +353,7 @@ def compare_anomaly_scores(signal_name, keras_predictions, hls_predictions):
     plt.grid(True, alpha=0.3)
     plt.xlim(x_min-x_max/20, x_max+x_max/20)
     plt.tight_layout()
-    plt.savefig(f'{signal_name}_difference_small_SNL.png')
+    plt.savefig(f'/home/lizhx/ToyVAE/HLS/plots/{signal_name}_difference_small_SNL.png')
     plt.close()
 signals = [np.array(X_test),
         np.array(Ato4l_data),
@@ -370,9 +364,9 @@ signal_names = ['SM', 'Ato4l', 'h->tautau', 'h+_->TauNu',
             'leptoquark']
 for channel, signal_name in zip(signals, signal_names):
     print(len(channel))
-    #keras_predictions = model.predict(np.ascontiguousarray(channel))
-    #hls_predictions = hls_model.predict(channel)
-    #compare_anomaly_scores(signal_name, keras_predictions, hls_predictions)
+    keras_predictions = model.predict(np.ascontiguousarray(channel))
+    hls_predictions = hls_model.predict(channel)
+    compare_anomaly_scores(signal_name, keras_predictions, hls_predictions)
 #
 '''
 def compare_models(check_value):
