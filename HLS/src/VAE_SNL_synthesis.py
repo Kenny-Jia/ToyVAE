@@ -66,7 +66,9 @@ custom_objects = {
     'QActivation': QActivation,
     'QBatchNormalization': QBatchNormalization
 }
+# TODO delete
 
+# TODO make simplified model with only encoder
 model = tf.keras.models.load_model(model_path, custom_objects=custom_objects)
 print(model.summary())
 np.set_printoptions(threshold=np.inf, linewidth=np.inf)
@@ -91,11 +93,14 @@ print(hls_config)
 print("--------------------------------------------------------------------------------------")
 
 hls_config['Model']['ReuseFactor'] = 1 
+# reuse factor for the entire model
 hls_config['Model']['Precision'] = 'ap_fixed<32,16>'
+# see skype for ap fixed doc
 for layer in hls_config['LayerName'].keys():
     print(layer)
     hls_config['LayerName'][layer]['Trace'] = True
-    hls_config['LayerName'][layer]['Strategy'] = 'Resource'
+    # hls_config['LayerName'][layer]['Strategy'] = 'Resource'
+    hls_config['LayerName'][layer]['Strategy'] = 'Latency'
     
     if layer == 'inputs':
         hls_config['LayerName'][layer]['Precision']['result'] = 'ap_fixed<32,16>'
@@ -133,7 +138,7 @@ print(hls_config)
 print("-------------------------------------------------------------------------")
 
 
-cfg = hls4ml.converters.create_config(backend='Vivado')
+cfg = hls4ml.converters.create_config(backend='Vitis')
 
 cfg['IOType'] = 'io_parallel'
 cfg['HLSConfig'] = hls_config
@@ -141,7 +146,7 @@ cfg['KerasModel'] = model
 cfg['OutputDir'] = 'Resource_small_SNL_VAE'
 cfg['ClockPeriod'] = 25
 cfg['ClockUncertainty'] = '27%'
-cfg['Part'] = 'xcvu9p-flga2104-2-e'
+cfg['Part'] = 'xcvu9p-flga2104-2-e' # FPGA board #
 
 hls_model = hls4ml.converters.keras_to_hls(cfg)
 #, project_name='AD_L1Topo2A_project'
