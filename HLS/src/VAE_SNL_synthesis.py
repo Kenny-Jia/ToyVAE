@@ -96,7 +96,7 @@ for layer in hls_config['LayerName'].keys():
     # hls_config['LayerName'][layer]['Strategy'] = 'Resource'
     hls_config['LayerName'][layer]['Strategy'] = 'Latency'
     
-    if layer == 'input_10':
+    if layer == 'input_4':
         hls_config['LayerName'][layer]['Precision']['result'] = 'ap_fixed<32,16>'
     if layer == 'dense1':
         hls_config['LayerName'][layer]['Precision']['weight'] = 'ap_fixed<32,16>'
