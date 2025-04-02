@@ -59,7 +59,7 @@ def analyze_columns(arr):
         print()  # Empty line for readability
 #analyze_columns(Ato4l_data)
 
-model_path = '/home/lizhx/ToyVAE/software_dev/trimmed_models/best_GAN_iter_0'
+model_path = '/fs/ddn/sdf/group/atlas/d/lizhx/ToyVAE/software_dev/trimmed_models/small_disc_GAN_1000'
 # TODO delete
 
 # TODO make simplified model with only encoder
@@ -96,7 +96,7 @@ for layer in hls_config['LayerName'].keys():
     # hls_config['LayerName'][layer]['Strategy'] = 'Resource'
     hls_config['LayerName'][layer]['Strategy'] = 'Latency'
     
-    if layer == 'inputs':
+    if layer == 'input_10':
         hls_config['LayerName'][layer]['Precision']['result'] = 'ap_fixed<32,16>'
     if layer == 'dense1':
         hls_config['LayerName'][layer]['Precision']['weight'] = 'ap_fixed<32,16>'
